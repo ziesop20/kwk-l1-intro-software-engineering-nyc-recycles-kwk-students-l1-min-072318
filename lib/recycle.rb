@@ -77,5 +77,3 @@ def key_and_data(recycling_info)
     puts "The #{keys} is the #{values}"
 end 
 end 
-
-recycling_info
