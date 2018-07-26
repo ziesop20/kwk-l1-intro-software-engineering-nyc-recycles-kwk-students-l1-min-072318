@@ -48,7 +48,7 @@ end
 #2. Define a method called `borough` that takes a hash as an argument.
 # This method should return the value of the borough key in the hash.
 def borough(recycling_info)
-  reycling_info["borough"]
+  recycling_info["borough"]
 end
 
 #3. Define a method called `all_keys` that takes a hash as an argument.
@@ -74,6 +74,6 @@ end
 #You should use the `each` method to iterate over your hash to print out that sentence
 def key_and_data(recycling_info)
   recycling_info.each do |keys, values|
-    puts "The #{keys} is the #{values}"
+    print "The #{keys} is the #{values}"
 end 
 end 
