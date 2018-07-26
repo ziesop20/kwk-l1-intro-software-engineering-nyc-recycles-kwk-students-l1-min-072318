@@ -73,7 +73,7 @@ end
 #This method should print out each key and value in the hash in a sentence like this: `The #{key} is #{value}`
 #You should use the `each` method to iterate over your hash to print out that sentence
 def key_and_data(recycling_info)
-  recycling_info.each do |keys, values|
-    print "The #{keys} is the #{values}"
+  recycling_info.each do |key, value|
+    print "The #{key} is the #{value}"
 end 
 end 
