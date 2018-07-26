@@ -58,6 +58,7 @@ def all_keys(recycling_info)
   recycling_info.each_key do |keys|
     puts keys 
 end
+end 
 
 #4. Define a method called `all_data` that takes a hash as an argument.
 #This method should print out each value in the hash.
@@ -66,6 +67,7 @@ def all_data(recycling_info)
   recycling_info.each_value do |values|
     puts values 
 end 
+end 
 
 #5. Define a method called `key_and_data` that takes a hash as an argument.
 #This method should print out each key and value in the hash in a sentence like this: `The #{key} is #{value}`
@@ -73,6 +75,7 @@ end
 def key_and_data(recycling_info)
   recycling_info.each do |keys, values|
     puts "The #{keys} is the #{values}"
+end 
 end 
 
 recycling_info
