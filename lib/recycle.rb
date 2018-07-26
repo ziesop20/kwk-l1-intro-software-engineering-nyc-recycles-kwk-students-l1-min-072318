@@ -56,7 +56,7 @@ end
 #You should use the `each_key` method to iterate over your hash and print out each key.
 def all_keys(recycling_info)
   recycling_info.each_key do |keys|
-    puts keys 
+    print keys 
 end
 end 
 
@@ -65,7 +65,7 @@ end
 #You should use the `each_value` method to iterate over your hash and print out each value.
 def all_data(recycling_info)
   recycling_info.each_value do |values|
-    puts values 
+    print values 
 end 
 end 
 
@@ -74,6 +74,6 @@ end
 #You should use the `each` method to iterate over your hash to print out that sentence
 def key_and_data(recycling_info)
   recycling_info.each do |keys, values|
-    puts "The #{keys} is the #{values}"
+    print "The #{keys} is the #{values}"
 end 
 end 
