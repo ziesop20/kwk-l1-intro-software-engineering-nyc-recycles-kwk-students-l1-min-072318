@@ -74,6 +74,6 @@ end
 #You should use the `each` method to iterate over your hash to print out that sentence
 def key_and_data(recycling_info)
   recycling_info.each do |key, value|
-    puts "The #{key} is the #{value}"
+    puts "The #{key} is #{value}"
 end 
 end 
