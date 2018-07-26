@@ -74,3 +74,5 @@ def key_and_data(recycling_info)
   recycling_info.each do |keys, values|
     puts "The #{keys} is the #{values}"
 end 
+
+recycling_info
